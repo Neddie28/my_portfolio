@@ -1,7 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import ClientOnly from './components/ClientOnly'
 <link rel="icon" type="image/svg+xml" href="/logo.svg" />
 
 const inter = Inter({ subsets: ['latin'] })
