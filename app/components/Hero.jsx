@@ -1,11 +1,17 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 
 
 import { styles } from '../style';
 import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
+  const [text, count] = useTypewriter({
+    words: ["<Chinaka />", "<Chinedu />"],
+    loop: true,
+    delaySpeed:3000,
+  })
   return (
     <section className='relative w-full h-screen mx-auto'>
         <div className={`absolute inset-0 flex top-[120px] max-w-7xl mx-auto ${styles.paddingX} 
@@ -16,7 +22,9 @@ const Hero = () => {
             </div>
 
             <div>
-              <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className='text-[#915eff]'>Chinedu</span></h1>
+              <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className='text-[#915eff]'
+              >{text}
+              </span></h1>
               <p className={` ${styles.heroSubText} mt-2 text-white-100`}>
                 I develop Web applications, user <br className='sm:block hidden'/>interfaces and Mobile applications
               </p>
