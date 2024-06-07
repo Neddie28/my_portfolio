@@ -1,12 +1,9 @@
 "use client";
 
-import { BrowserRouter } from 'react-router-dom'
-
 import { About, Contact, Experience, Footer, Feedbacks, Hero, StarsCanvas, Navbar, Tech, Works } from "./components"; 
 
 const  Home = () => {
   return (
-     <BrowserRouter>
         <div className='relative  z-0  bg-primary'>
           <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
             <Navbar/>
@@ -27,7 +24,6 @@ const  Home = () => {
           </div>
           <Footer />
         </div>
-     </BrowserRouter>
   )
 }
 
