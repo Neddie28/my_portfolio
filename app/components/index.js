@@ -8,9 +8,11 @@ import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Footer from './Footer';
+import ClientOnly from "./ClientOnly"
 
 export {
   Hero,
+  ClientOnly,
   Navbar,
   About,
   Tech,

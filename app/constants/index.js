@@ -119,11 +119,11 @@ import {
   
   const experiences = [
     {
-      title: "REACT.JS FRONTEND ENGINEER",
+      title: "JUNIOR SOFTWARE ENGINEER",
       company_name: "Layer0 (united states)",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "October 2022 - March 2024",
+      date: "October 2022 - May 2024",
       points: [
         "Developed optimization frameworks using chrio, typescript, mongodb, reactjs and react-native",
         "Created server/client-side applications using nextjs and strapi cms",
@@ -136,15 +136,14 @@ import {
       ],
     },
     {
-      title: "JUNIOR FULL-STACK ENGINEER",
-      company_name: "Vuvaa(abuja)",
+      title: "JUNIOR FRONTEND ENGINEER",
+      company_name: "Vuvaa (abuja)",
       icon: shopify,
       iconBg: "#383E56",
       date:"October 2020 - October 2022",
       points: [
         "Increased user engagement by 15% and reduced page load times by 20% by spearheading the migration of our static website to Next.js, leveraging server-side rendering and static site generation.",
         "Integrated React Query into our React application, enabling efficient data fetching and caching, leading to a smoother user experience and improved responsiveness.",
-        " Developed and deployed serverless full stack applications in aws cdk, dynamodb, cognito idp, s3, cloudformation, route53, sns, vpc, ec2, amplify, lambda and serverless, nodejs, reactjs, Restful apis, and nextjs.",
         "Collaborated with backend developers to implement a RESTful API for our frontend application, ensuring efficient data retrieval and a structured development approach.",
         "Leveraged TypeScript to seamlessly integrate various third-party libraries into our React application, ensuring type safety and reduced runtime errors.",
         "Participated in code reviews and providing constructive feedback to other developers.",
@@ -316,7 +315,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "supabaseClient",
+          name: "createServerComponentClient",
           color: "blue-text-gradient",
         },
       ],

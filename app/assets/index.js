@@ -26,9 +26,11 @@ import levelupwork from "./levelupwork.png"
 import spotify from "./spotify.png"
 import  neddie  from "./neddie.png"
 import luis from "./luis.jpg"
+import herobg from "./herobg.png"
 
 export {
   discord,
+  herobg,
   luis,
   airbnb,
   neddie,

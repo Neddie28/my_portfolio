@@ -1,11 +1,16 @@
 "use client";
 
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Footer, Feedbacks, Hero, StarsCanvas, Navbar, Tech, Works } from "./components"; 
+import { About, Contact, Experience, Footer, Feedbacks, Hero, StarsCanvas, Navbar, Tech, Works, ClientOnly } from "./components"; 
+import { Suspense } from "react";
+import Loading from "./components/Loading";
 
 const  Home = () => {
+  if(typeof window == "undefined") return null
   return (
-    <BrowserRouter>
+    <ClientOnly>
+    <Suspense fallback={<Loading />}>
+     <BrowserRouter>
         <div className='relative  z-0  bg-primary'>
           <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
             <Navbar/>
@@ -26,7 +31,9 @@ const  Home = () => {
           </div>
           <Footer />
         </div>
-      </BrowserRouter>
+      </BrowserRouter>  
+    </Suspense>
+    </ClientOnly>
   )
 }
 

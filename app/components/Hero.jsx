@@ -26,7 +26,7 @@ const Hero = () => {
               >{text}
               </span></h1>
               <p className={` ${styles.heroSubText} mt-2 text-white-100`}>
-                I develop Web applications, user <br className='sm:block hidden'/>interfaces and Mobile applications
+              I build responsive web applications, <br className='sm:block md:hidden hidden'/>design user interfaces (UIs) that are intuitive and user-friendly, and develop native mobile applications
               </p>
 
             </div>
