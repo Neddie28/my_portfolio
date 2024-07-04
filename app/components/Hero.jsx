@@ -8,7 +8,7 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   const [text, count] = useTypewriter({
-    words: ["<Chinaka />", "<Chinedu />"],
+    words: ["<Chinedu/>"],
     loop: true,
     delaySpeed:3000,
   })
@@ -26,7 +26,7 @@ const Hero = () => {
               >{text}
               </span></h1>
               <p className={` ${styles.heroSubText} mt-2 text-white-100`}>
-              I build responsive web applications, <br className='sm:block md:hidden hidden'/>design user interfaces (UIs) that are intuitive and user-friendly, and develop native mobile applications
+              A software engineer who builds responsive web applications, <br className='sm:block md:hidden hidden'/>design user interfaces (UIs) that are intuitive and user-friendly, and develop native mobile applications and build Blockchain Infrastructures!
               </p>
 
             </div>

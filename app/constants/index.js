@@ -119,8 +119,8 @@ import {
   
   const experiences = [
     {
-      title: "JUNIOR SOFTWARE ENGINEER",
-      company_name: "Layer0 (united states)",
+      title: "SOFTWARE ENGINEER",
+      company_name: "Layer0 (U.S.A)",
       icon: starbucks,
       iconBg: "#383E56",
       date: "October 2022 - May 2024",
@@ -132,18 +132,20 @@ import {
         "Worked with cross-functional teams to communicate project requirements and proposals.",
         "Developed flowCharts and layouts to identify software requirements and solutions.",
         "Integrated robust API communication and employed RESTful APIs for exchange.",
-        "Offered constructive criticism and knowledge sharing through code review participation."
+        "Offered constructive criticism and knowledge sharing through code review participation.",
+        "Utilized jenkins For CI/CD Pipeline Auomation."
       ],
     },
     {
-      title: "JUNIOR FRONTEND ENGINEER",
-      company_name: "Vuvaa (abuja)",
+      title: "JUNIOR FRONTEND DEVELOPER",
+      company_name: "Science Corp (New York)",
       icon: shopify,
       iconBg: "#383E56",
       date:"October 2020 - October 2022",
       points: [
         "Increased user engagement by 15% and reduced page load times by 20% by spearheading the migration of our static website to Next.js, leveraging server-side rendering and static site generation.",
         "Integrated React Query into our React application, enabling efficient data fetching and caching, leading to a smoother user experience and improved responsiveness.",
+        "Utilized Github actions For CI/CD Pipeline Auomation.",
         "Collaborated with backend developers to implement a RESTful API for our frontend application, ensuring efficient data retrieval and a structured development approach.",
         "Leveraged TypeScript to seamlessly integrate various third-party libraries into our React application, ensuring type safety and reduced runtime errors.",
         "Participated in code reviews and providing constructive feedback to other developers.",
@@ -165,7 +167,7 @@ import {
         "After Chinedu's website optimization efforts, our traffic surged by 15%! We're incredibly grateful for their contributions.",
       name: "Luis Lawrence",
       designation: "Product Manager",
-      company: "Vuvaa",
+      company: "Science Corp",
       image: "https://randomuser.me/api/portraits/men/54.jpg",
     },
     {
@@ -173,7 +175,7 @@ import {
         "Chinedu's clean code and clear explanations on vuvaa were a game-changer. A true asset to the team!",
       name: "Sam Oladele",
       designation: "Software Engineer",
-      company: "Vuvaa",
+      company: "Science Corp",
       image: "https://randomuser.me/api/portraits/men/59.jpg",
     },
   ];

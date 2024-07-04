@@ -72,7 +72,7 @@ const Navbar = () => {
                       <a href={`#${link.id}`}>{link.title}</a> 
                   </li>
                 ))}
-                <a href="/chinaka_chinedu.pdf"  className="bg-[#915eff] p-2 font-semibold items-center rounded-md" download>Download CV</a>
+                <a href="/THE_CHINEDU_CHINAKA_RESUME.pdf"  className="bg-[#915eff] p-2 font-semibold items-center rounded-md" download>Download CV</a>
             </ul>
 
             <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -98,7 +98,7 @@ const Navbar = () => {
                             <a href={`#${link.id}`}>{link.title}</a> 
                         </li>
                       ))}
-                        <a  href="/chinaka_chinedu.pdf" download className="bg-[#915eff] p-2 font-semibold items-center rounded-md">Download CV
+                        <a  href="/THE_CHINEDU_CHINAKA_RESUME.pdf" download className="bg-[#915eff] p-2 font-semibold items-center rounded-md">Download CV
                         </a>
                    </ul>
                   </div>

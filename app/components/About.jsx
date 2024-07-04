@@ -50,7 +50,7 @@ const About = () => {
           variants={fadeIn("","", 0.1, 1)}
           className='mt-4 text-secondary text-[17px]
           max-w-3xl mr-8 leading-[30px]'>
-            I’m a results-driven Junior Fullstack Software Engineer/ Technical Lead with 4   years of hands-on experience in designing, developing, and optimizing complex software solutions. Adept at leading cross-functional teams, I have a proven track record of delivering high-quality products on time and within budget. Expertise lies in full-stack web/mobile development, system architecture, and innovative problem-solving. Passionate about staying at the forefront of technology trends, I bring a blend of technical proficiency and strategic thinking to drive impactful 
+            I’m a results-driven Fullstack Software Engineer/ Technical Lead with 5 years of hands-on experience in designing, developing, and optimizing complex software solutions. Adept at leading cross-functional teams, I have a proven track record of delivering high-quality products on time and within budget. Expertise lies in full-stack web/mobile development, system architecture, and innovative problem-solving. Passionate about staying at the forefront of technology trends, I bring a blend of technical proficiency and strategic thinking to drive impactful 
             outcomes. 
 
       </motion.p>
