@@ -132,7 +132,7 @@ const Contact = () => {
                 {loading ? "Sending" : "Send"}
             </button>
             <div className='flex gap-5 justify-center'>
-              <a href="https://www.linkedin.com/in/chinedu-chinaka-339064311" className='cursor-pointer hover:bg-neutral-800 p-2 rounded-md transition'>
+              <a href="https://https://www.linkedin.com/in/chinedu-chinaka-3b9970249" className='cursor-pointer hover:bg-neutral-800 p-2 rounded-md transition'>
                   <BsLinkedin size={20} />
               </a>
               <a href="https://github.com/Neddie28" className='cursor-pointer  hover:bg-neutral-800 p-2 rounded-md transition'>
