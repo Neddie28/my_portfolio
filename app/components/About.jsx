@@ -6,6 +6,8 @@ import Image from 'next/image';
 import { styles } from '../style';
 import { services } from '../constants';
 import { fadeIn, textVariant } from "../utils/motion";
+
+//importing Higher order component
 import { SectionWrapper} from "../hoc";
 
  const ServiceCard = ({ index, title, icon, level }) => {
