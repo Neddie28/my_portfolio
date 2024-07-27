@@ -42,7 +42,7 @@ const ExperienceCard = ({ experience }) => {
     );
 };
 
-
+//Experience component
 const Experience = () => {
   return (
     <>
