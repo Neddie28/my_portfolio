@@ -5,6 +5,7 @@ import { staggerContainer } from "../utils/motion";
 
 const SectionWrapper = ( Component, idName ) => 
     function HOC() {
+        
         return (
             <motion.section
                 variants={staggerContainer()}
